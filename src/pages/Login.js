@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import Img from "../pic/Login.png"
 
 const Logging = styled.div`
+padding-left:4em;
+padding-right:4em;
 padding-bottom:4em;
 `
 const Content = styled.div`
@@ -20,11 +22,11 @@ function Login() {
               <div class="col-md-6">
                 <img class="img-responsive" width="100%" height="auto" className="img-responsive" src={Img}  alt="logo" />
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 pl-4">
               <Content>
               <h1>Login</h1>
                 <Card>
-                  <div className="loginContainer">
+                  <div className="loginContainer p-2">
                     <Form onSubmit="">
                       <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email address</Form.Label>
@@ -35,7 +37,7 @@ function Login() {
                         //   onChange={(e) => setEmail(e.target.value)}
                         />
                       </Form.Group>
-
+                      <p> </p>
                       <Form.Group controlId="formBasicPassword">
                         <Form.Label>Password</Form.Label>
                         <Form.Control
@@ -45,11 +47,12 @@ function Login() {
                         //   onChange={(e) => setPassword(e.target.value)}
                         />
                       </Form.Group>
-
+                      <p> </p>
                       <Button variant="primary" type="submit">
                         Submit
                       </Button>
                     </Form>
+
                     <Row className="py-3">
                       <Col>
                         New Customer ? <Link to="/register">Register Here</Link>

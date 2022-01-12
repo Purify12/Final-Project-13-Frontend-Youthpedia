@@ -38,7 +38,8 @@ function Navbars({ setSearch }) {
                 <Nav.Link href="/Webinar">Webinar</Nav.Link>
                 <Nav.Link href="/Home">Home</Nav.Link>
                 <Nav.Link href="/Beranda">Beranda</Nav.Link>
-                <Nav.Link href="/Login">Login</Nav.Link>
+                <Nav.Link href="/Favorite">Favorite</Nav.Link>
+                <Nav.Link href="/Nofav">Nothing Fav</Nav.Link>
                 <Nav.Link href="/Register">Register</Nav.Link>
                 <NavDropdown
                   title=""
@@ -55,7 +56,7 @@ function Navbars({ setSearch }) {
                 </NavDropdown>
               </>
               <Nav.Link href="/Login">Login</Nav.Link>
-            ) 
+            
               
             
           </Nav>

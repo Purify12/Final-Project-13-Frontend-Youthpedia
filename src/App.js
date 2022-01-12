@@ -14,6 +14,8 @@ import Register from "./pages/Register";
 import Navbars from "./components/Navbars";
 import Webinar from "./pages/Webinar";
 import Footer from "./components/Footer";
+import Favorite from "./pages/Favorite";
+import NothingFav from "./pages/NothingFav";
 function App(){
   render(
     <BrowserRouter>
@@ -28,6 +30,8 @@ function App(){
         <Route path="/Register" element={<Register />} />
         <Route path="/NotFound" element={<NotFound />} />
         <Route path="/Profil" element={<Profil />} />     
+        <Route path="/Favorite" element={<Favorite />} />     
+        <Route path="/Nofav" element={<NothingFav />} />     
       </Routes>
       <Footer/>
     </BrowserRouter>,

@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import Img from "../pic/Login.png"
 
 const Logging = styled.div`
+padding-left:4em;
+padding-right:4em;
 padding-bottom:4em;
 `
 const Content = styled.div`
@@ -34,6 +36,7 @@ function Register() {
                             // onChange={(e) => setName(e.target.value)}
                             />
                         </Form.Group>
+
                         <Form.Group controlId="gender">
                             <Form.Label>Gender</Form.Label>
                             <Form.Control
@@ -43,7 +46,7 @@ function Register() {
                             // onChange={(e) => setGender(e.target.value)}
                             />
                         </Form.Group>
-
+                      
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
                             <Form.Control
@@ -53,7 +56,7 @@ function Register() {
                             // onChange={(e) => setEmail(e.target.value)}
                             />
                         </Form.Group>
-
+                      
                         <Form.Group controlId="formBasicPassword">
                             <Form.Label>Password</Form.Label>
                             <Form.Control
@@ -63,7 +66,7 @@ function Register() {
                             // onChange={(e) => setPassword(e.target.value)}
                             />
                         </Form.Group>
-
+                       
                         <Form.Group controlId="confirmPassword">
                             <Form.Label>Confirm Password</Form.Label>
                             <Form.Control
@@ -73,14 +76,14 @@ function Register() {
                             // onChange={(e) => setConfirmPassword(e.target.value)}
                             />
                         </Form.Group>                      
-
+                        <p> </p>
                         <Button variant="primary" type="submit">
-                            Register
+                            Sign Up
                         </Button>
                         </Form>
                     <Row className="py-3">
                       <Col>
-                        New Customer ? <Link to="/register">Register Here</Link>
+                      By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy.
                       </Col>
                     </Row>
                   </div>
