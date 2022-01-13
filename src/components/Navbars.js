@@ -47,7 +47,7 @@ function Navbars({ setSearch }) {
                   title=""
                   id="collasible-nav-dropdown"
                 >
-                  <NavDropdown.Item href="/profile">
+                  <NavDropdown.Item href="/Profile">
                     My Profile
                   </NavDropdown.Item>
 

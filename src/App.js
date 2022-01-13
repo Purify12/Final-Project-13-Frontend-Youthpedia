@@ -33,7 +33,7 @@ function App(){
         <Route path="/Webinar" element={<Webinar />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/NotFound" element={<NotFound />} />
-        <Route path="/Profil" element={<Profil />} />     
+        <Route path="/Profile" element={<Profil />} />     
         <Route path="/Favorite" element={<Favorite />} />     
         <Route path="/Nofav" element={<NothingFav />} />     
         <Route path="/Thanks" element={<Thanks />} />     
