@@ -18,6 +18,7 @@ import Favorite from "./pages/Favorite";
 import NothingFav from "./pages/NothingFav";
 import Contribute from "./pages/Contribute";
 import Thanks from "./pages/Thanks";
+import Detail from "./pages/Detail";
 function App(){
   render(
     <BrowserRouter>
@@ -36,6 +37,7 @@ function App(){
         <Route path="/Favorite" element={<Favorite />} />     
         <Route path="/Nofav" element={<NothingFav />} />     
         <Route path="/Thanks" element={<Thanks />} />     
+        <Route path="/Detail" element={<Detail />} />     
       </Routes>
       <Footer/>
     </BrowserRouter>,

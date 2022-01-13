@@ -3,6 +3,7 @@ import Slider from '../components/Slider'
 import { Row, Col, Card } from 'react-bootstrap'
 import styled from 'styled-components'
 import Img from "../pic/Article.png"
+import CardComp from '../components/CardComp'
 
 const Containers = styled.div`
 padding-left:4em;
@@ -36,16 +37,7 @@ function Home() {
                             </Card>
                         </div>
                         <div class="col-md-4 pt-4 ">
-                            <Card>
-                                <Card.Img variant="top" src={Img} />
-                                <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
-                                </Card.Text>
-                                </Card.Body>
-                            </Card>
+                        <CardComp id="1" judul="Belajar React Keren" tanggal="12/12/2020"/>
                         </div>
                         <div class="col-md-4 pt-4 ">
                             <Card>
