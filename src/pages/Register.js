@@ -7,7 +7,7 @@ import Img from "../pic/Login.png"
 const Logging = styled.div`
 padding-left:4em;
 padding-right:4em;
-padding-bottom:4em;
+padding-bottom:8em;
 `
 const Content = styled.div`
 top:25%;
