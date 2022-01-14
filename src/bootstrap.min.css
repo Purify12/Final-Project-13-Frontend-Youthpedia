@@ -503,6 +503,52 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.dtl-web h1{
+  position: absolute;
+  width: 620px;
+  height: 27px;
+  left: 126px;
+  top: 1004px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 120%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+.dtl-web .satu{
+  position: absolute;
+  width: 349px;
+  height: 68px;
+  left: 180px;
+  top: 1057px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 120%;
+  /* or 29px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+.webthem{
+  position: absolute;
+  width: 960px;
+  height: 522px;
+  left: 114px;
+  top: 1620px;
+}
 @media (min-width: 576px) {
   .container,
   .container-sm {
@@ -533,6 +579,19 @@ pre code {
     max-width: 1140px;
   }
 }
+.dtl-web{
+  position: absolute;
+  width: 1328px;
+  height: 2500px;
+  left: 56px;
+  top: 220px;
+
+  background: #FFFFFF;
+  border: 3px solid #FFE5B4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -541,9 +600,83 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
+.dtl-ticket{
+  position: absolute;
+  width: 1328px;
+  height: 1000px;
+  left: 56px;
+  top: 207px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.thanks h1{
+  position: absolute;
+  width: 564px;
+  height: 88px;
+  left: 87px;
+  top: 752px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 22px;
+  /* or 92% */
+
+  text-align: center;
+  letter-spacing: -0.408px;
+
+  color: #000000;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
+}
+.thx{
+  position: absolute;
+  width: 733px;
+  height: 515px;
+  left: 26px;
+  top: 161px;
+}
+.thx1{
+  position: absolute;
+  width: 708px;
+  height: 546px;
+  left: 720px;
+  top: 408px;
+}
+.ayfimg{
+  position: absolute;
+  width: 800px;
+  height: 400px;
+  left: 107px;
+  top: 439px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.ayfjoin {
+  position: absolute;
+  width: 1186px;
+  height: 522px;
+  left: 114px;
+  top: 1200px;
+}
+.webimg{
+  position: absolute;
+  width: 405px;
+  height: 262px;
+  left: 800px;
+  top: 60px;
+}
+.webimg1{
+  position: absolute;
+  width: 392px;
+  height: 309px;
+  left: 200px;
+  top: 60px;
 }
 .no-gutters > .col,
 .no-gutters > [class*="col-"] {
@@ -4533,6 +4666,48 @@ input[type="submit"].btn-block {
   left: 0;
   padding: 1.25rem;
   border-radius: calc(0.25rem - 1px);
+}
+.pagewebimg{
+  position: absolute;
+  width: 152px;
+  height: 125px;
+  left: 527px;
+  top: 148px;
+}
+.filipinaimg{
+  position: absolute;
+  width: 37px;
+  height: 36px;
+  left: 1012px;
+  top: 488px;
+}
+.malaysiaimg{
+  position: absolute;
+  width: 37px;
+  height: 36px;
+  left: 770px;
+  top: 488px;
+}
+.singaporeimg{
+  position: absolute;
+  width: 37px;
+  height: 36px;
+  left: 530px;
+  top: 488px;
+}
+.laosimg{
+  position: absolute;
+  width: 37px;
+  height: 40px;
+  left: 300px;
+  top: 488px;
+}
+.indoimg{
+  position: absolute;
+  width: 37px;
+  height: 40px;
+  left: 70px;
+  top: 488px;
 }
 .card-img,
 .card-img-bottom,

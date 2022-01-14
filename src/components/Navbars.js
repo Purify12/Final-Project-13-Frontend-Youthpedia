@@ -35,14 +35,14 @@ function Navbars({ setSearch }) {
           <Nav>
 
               <>
+                <Nav.Link href="/Home">Home</Nav.Link>
                 <Nav.Link href="/Webinar">Webinar</Nav.Link>
                 <Nav.Link href="/Contribute">Contribute</Nav.Link>
-                <Nav.Link href="/Home">Home</Nav.Link>
-                <Nav.Link href="/Beranda">Beranda</Nav.Link>
+                <Nav.Link href="/Beranda">Home</Nav.Link>
                 <Nav.Link href="/Favorite">Favorite</Nav.Link>
-                <Nav.Link href="/Nofav">Nothing Fav</Nav.Link>
+                {/* <Nav.Link href="/Nofav">Nothing Fav</Nav.Link> */}
                 <Nav.Link href="/Register">Register</Nav.Link>
-                <Nav.Link href="/Detail">Detail</Nav.Link>
+                {/* <Nav.Link href="/Detail">Detail</Nav.Link> */}
                 <NavDropdown
                   title=""
                   id="collasible-nav-dropdown"
