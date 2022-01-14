@@ -4,6 +4,7 @@ import { Row, Col, Card } from 'react-bootstrap'
 import styled from 'styled-components'
 import Img from "../pic/Article.png"
 import CardComp from '../components/CardComp'
+import axios from "axios";
 
 const Containers = styled.div`
 padding-left:4em;
@@ -13,6 +14,8 @@ padding-bottom:4em;
 const Centers = styled.div`
 align-items:"center";
 `
+
+
 function Home() {
     return (
         <Containers>
