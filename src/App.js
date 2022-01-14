@@ -11,7 +11,6 @@ import NotFound from "./pages/NotFound"
 import Profil from "./pages/Profil"
 import Login from "./pages/Login"
 import Register from "./pages/Register";
-import Navbars from "./components/Navbars";
 import Webinar from "./pages/Webinar";
 import Footer from "./components/Footer";
 import Favorite from "./pages/Favorite";
@@ -24,7 +23,6 @@ import Events from "./pages/Events";
 function App(){
   render(
     <BrowserRouter>
-    <Navbars/>
       <Routes>
         
         <Route path="/" element={<Beranda />} />

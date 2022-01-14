@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Img from "../pic/Article.png"
 import CardComp from '../components/CardComp'
 import axios from "axios";
-
+import NavUser from '../components/NavUser'
 const Containers = styled.div`
 padding-left:4em;
 padding-right:4em;
@@ -18,6 +18,8 @@ align-items:"center";
 
 function Home() {
     return (
+        <div>
+            <NavUser/>
         <Containers>
             <Row>
             <Slider/>
@@ -151,6 +153,7 @@ function Home() {
             </Row>
            
         </Containers>
+        </div>
     )
 }
 

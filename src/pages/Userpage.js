@@ -1,11 +1,11 @@
 import React from "react";
 import { Button, Container, Row, Card} from "react-bootstrap";
 import styled from "styled-components";
-
 import Img from "../pic/Homepage.png"
 import Img1 from "../pic/Mnarticle.png"
 import Img2 from "../pic/Mnwebinar.png"
 import Img3 from "../pic/Mnevent.png"
+import NavUser from "../components/NavUser";
 
 const Landingpages = styled.div`
 padding-left:4em;
@@ -38,6 +38,8 @@ text-align: left;
 `
 function Userpage() {
     return (
+        <div>
+            <NavUser/>
         <Landingpages >
       <Container>
         <Row>
@@ -92,6 +94,7 @@ function Userpage() {
         </div>
       </Container>
     </Landingpages>
+    </div>
     )
 }
 

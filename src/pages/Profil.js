@@ -1,9 +1,11 @@
 import React from 'react'
 import { Form, Button } from "react-bootstrap";
 import Img from "../pic/profile.jpg"
+import NavUser from '../components/NavUser';
 function Profil() {
     return (
         <div>
+            <NavUser/>
             <h1>My Profile</h1>
             <div className="row p-4">
                     <div class="col-md-6 pl-4">

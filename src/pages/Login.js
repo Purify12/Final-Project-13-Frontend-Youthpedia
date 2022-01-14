@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import { Form, Button, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Img from "../pic/Login.png"
-
+import NavStart from '../components/NavStart';
+import NavUser from '../components/NavUser';
 const Logging = styled.div`
 padding-left:4em;
 padding-right:4em;
@@ -17,6 +18,8 @@ padding-top:5em;
 
 function Login() {
     return (
+      <div>
+        <NavStart/>
         <Logging>    
           <Row>
               <div class="col-md-6">
@@ -65,6 +68,7 @@ function Login() {
           </Row>
           
         </Logging>
+        </div>
     )
 }
 

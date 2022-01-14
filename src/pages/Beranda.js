@@ -1,8 +1,7 @@
 import React from "react";
 import { Button, Container, Row} from "react-bootstrap";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
-
+import NavStart from "../components/NavStart";
 import Img from "../pic/Beranda.png"
 
 const Landingpages = styled.div`
@@ -37,6 +36,8 @@ text-align: center;
 `
 function Beranda() {
   return (
+    <div>
+      <NavStart/>
     <Landingpages >
       <Container>
         <Row>
@@ -53,6 +54,7 @@ function Beranda() {
         </Row>
       </Container>
     </Landingpages>
+    </div>
   )
 }
 
