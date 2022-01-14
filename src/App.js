@@ -16,9 +16,11 @@ import Webinar from "./pages/Webinar";
 import Footer from "./components/Footer";
 import Favorite from "./pages/Favorite";
 import NothingFav from "./pages/NothingFav";
+import Userpage from "./pages/Userpage";
 import Contribute from "./pages/Contribute";
 import Thanks from "./pages/Thanks";
 import Detail from "./pages/Detail";
+import Events from "./pages/Events";
 function App(){
   render(
     <BrowserRouter>
@@ -26,7 +28,7 @@ function App(){
       <Routes>
         
         <Route path="/" element={<Beranda />} />
-        <Route path="/Home" element={<Home />} />
+        <Route path="/Article" element={<Home />} />
         <Route path="/Beranda" element={<Beranda />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Contribute" element={<Contribute />} />
@@ -38,6 +40,8 @@ function App(){
         <Route path="/Nofav" element={<NothingFav />} />     
         <Route path="/Thanks" element={<Thanks />} />     
         <Route path="/Detail" element={<Detail />} />     
+        <Route path="/Userpage" element={<Userpage />} />     
+        <Route path="/Events" element={<Events />} />     
       </Routes>
       <Footer/>
     </BrowserRouter>,
