@@ -19,11 +19,9 @@ import Userpage from "./pages/Userpage";
 import Contribute from "./pages/Contribute";
 import Thanks from "./pages/Thanks";
 import Detail from "./pages/Detail";
-<<<<<<< HEAD
 import DetailTicket from "./pages/DetailTicket";
-=======
 import Events from "./pages/Events";
->>>>>>> 7e3c2a8fabdae0ea53c265b364b90e04b69e1df8
+
 function App(){
   render(
     <BrowserRouter>
@@ -41,14 +39,11 @@ function App(){
         <Route path="/Favorite" element={<Favorite />} />     
         <Route path="/Nofav" element={<NothingFav />} />     
         <Route path="/Thanks" element={<Thanks />} />     
-<<<<<<< HEAD
         <Route path="/Detail" element={<Detail />} />
         <Route path="/DetailTicket" element={<DetailTicket/>} />     
-=======
         <Route path="/Detail" element={<Detail />} />     
         <Route path="/Userpage" element={<Userpage />} />     
         <Route path="/Events" element={<Events />} />     
->>>>>>> 7e3c2a8fabdae0ea53c265b364b90e04b69e1df8
       </Routes>
       <Footer/>
     </BrowserRouter>,
