@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Container, Row, Form, Col, Card} from "react-bootstrap";
 import styled from "styled-components";
 import Img from "../pic/Contribute.png"
-
+import NavUser from "../components/NavUser";
 
 const Landingpages = styled.div`
 padding-left:4em;
@@ -29,6 +29,7 @@ text-align:center;
 function Contribute() {
     return (
         <div>
+            <NavUser/>
             <Landingpages >
                 <Container>
                     <div class="row pb-4">

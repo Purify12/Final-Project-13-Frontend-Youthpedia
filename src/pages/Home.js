@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Slider from '../components/Slider'
-import { Row, Col, Card } from 'react-bootstrap'
+import { Row, Card } from 'react-bootstrap'
 import styled from 'styled-components'
 import Img from "../pic/Article.png"
 import CardComp from '../components/CardComp'
+import NavUser from '../components/NavUser'
+import axios from 'axios'
 
 const Containers = styled.div`
 padding-left:4em;
@@ -13,8 +15,31 @@ padding-bottom:4em;
 const Centers = styled.div`
 align-items:"center";
 `
+
+
 function Home() {
+    const [loading, setLoading] = useState(true);
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      setLoading(true);
+      try {
+        const { data: response } = await axios.get(
+          "https://youtpedia-api.herokuapp.com/berita"
+        );
+        setData(response);
+      } catch (error) {
+        console.error(error.message);
+      }
+      setLoading(false);
+    };
+
+    fetchData();
+  }, []);
+  console.log(data);
     return (
+        <div>
+            <NavUser/>
         <Containers>
             <Row>
             <Slider/>
@@ -141,6 +166,7 @@ function Home() {
                     <p>#Indonesia</p>
                     <p>#Indonesia</p>
                     <p>#Indonesia</p>
+                    <a href="/Detail" class="btn btn-primary">Detail</a>
                     </Card>
                     
                 </div>
@@ -148,6 +174,7 @@ function Home() {
             </Row>
            
         </Containers>
+        </div>
     )
 }
 

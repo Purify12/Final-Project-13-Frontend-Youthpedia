@@ -18,6 +18,7 @@ function Webinar()  {
                 Date : 6-8 Feb 2021 </p>
 
             </div>
+
         </div>
     )
 }

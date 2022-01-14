@@ -3,13 +3,15 @@ import styled from 'styled-components'
 import Img from "../pic/Detail.png"
 import Img2 from "../pic/like.png"
 import { Button } from 'react-bootstrap'
-
+import NavUser from '../components/NavUser'
 const Center = styled.div`
 text-align:center;
 `
 
 function Detail() {
     return (
+        <div>
+            <NavUser/>
         <div class="row p-4">        
             <Center>
                 <h1>ASEAN Strengthens Commitment to Eradication Hoax Spread</h1>
@@ -24,6 +26,7 @@ function Detail() {
                 </Button>
                  1
             </p>
+        </div>
         </div>
     )
 }
