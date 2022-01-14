@@ -29,7 +29,7 @@ function Thanks() {
                 <img class="img-responsive" width="40%" height="auto" className="img-responsive" src={Img}  alt="logo" />
                 <h4>Thank you for wanting to contribute to Youthpedia!</h4>
                 <h4>We will share the good news to your email if you are chosen to become one of our amazing Youth Contributors!</h4>
-                <Button href="/Home" variant="warning" size="lg">Return to Homepage</Button>
+                <Button href="/Userpage" variant="warning" size="lg">Return to Homepage</Button>
               </div>
             </Row>                    
         </Container>

@@ -14,7 +14,7 @@ function NavUser({ setSearch }) {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" style={{marginBlockEnd:10}}>
       <Container>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/Userpage">
         <img width="auto" height="auto" className="img-responsive" src={Logo}  alt="logo" />
                </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
