@@ -20,6 +20,7 @@ import Thanks from "./pages/Thanks";
 import Detail from "./pages/Detail";
 import DetailTicket from "./pages/DetailTicket";
 import Events from "./pages/Events";
+import Payment from "./pages/Payment";
 
 function App(){
   render(
@@ -41,7 +42,8 @@ function App(){
         <Route path="/DetailTicket" element={<DetailTicket/>} />     
         <Route path="/Detail" element={<Detail />} />     
         <Route path="/Userpage" element={<Userpage />} />     
-        <Route path="/Events" element={<Events />} />     
+        <Route path="/Events" element={<Events />} />  
+        <Route path="/Payment" element={<Payment/>} />      
       </Routes>
       <Footer/>
     </BrowserRouter>,
