@@ -4,6 +4,7 @@ import Img from "../pic/Detail.png"
 import Img2 from "../pic/like.png"
 import { Button } from 'react-bootstrap'
 import NavUser from '../components/NavUser'
+
 const Center = styled.div`
 text-align:center;
 `
