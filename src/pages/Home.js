@@ -53,7 +53,7 @@ function Home() {
                             <Card>
                                 <Card.Img variant="top" src={Img} />
                                 <Card.Body>
-                                <Card.Title>Card title</Card.Title>
+                                <Card.Title>Article</Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.
@@ -62,13 +62,13 @@ function Home() {
                             </Card>
                         </div>
                         <div class="col-md-4 pt-4 ">
-                        <CardComp id="1" judul="Belajar React Keren" tanggal="12/12/2020"/>
+                        <CardComp id="1" judul="Article" tanggal="15/1/2021"/>
                         </div>
                         <div class="col-md-4 pt-4 ">
                             <Card>
                                 <Card.Img variant="top" src={Img} />
                                 <Card.Body>
-                                <Card.Title>Card title</Card.Title>
+                                <Card.Title>Article</Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.
@@ -83,7 +83,7 @@ function Home() {
                             <Card>
                                 <Card.Img variant="top" src={Img} />
                                 <Card.Body>
-                                <Card.Title>Card title</Card.Title>
+                                <Card.Title>Article</Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.
@@ -95,7 +95,7 @@ function Home() {
                             <Card>
                                 <Card.Img variant="top" src={Img} />
                                 <Card.Body>
-                                <Card.Title>Card title</Card.Title>
+                                <Card.Title>Article</Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.
@@ -107,7 +107,7 @@ function Home() {
                             <Card>
                                 <Card.Img variant="top" src={Img} />
                                 <Card.Body>
-                                <Card.Title>Card title</Card.Title>
+                                <Card.Title>Article</Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.
@@ -121,7 +121,7 @@ function Home() {
                             <Card>
                                 <Card.Img variant="top" src={Img} />
                                 <Card.Body>
-                                <Card.Title>Card title</Card.Title>
+                                <Card.Title>Article</Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.
@@ -133,7 +133,7 @@ function Home() {
                             <Card>
                                 <Card.Img variant="top" src={Img} />
                                 <Card.Body>
-                                <Card.Title>Card title</Card.Title>
+                                <Card.Title>Article</Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.
@@ -145,7 +145,7 @@ function Home() {
                             <Card>
                                 <Card.Img variant="top" src={Img} />
                                 <Card.Body>
-                                <Card.Title>Card title</Card.Title>
+                                <Card.Title>Article</Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.
