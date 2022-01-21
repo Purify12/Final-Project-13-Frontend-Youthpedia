@@ -77,12 +77,12 @@ function Contribute() {
                                     <Form.Control type="text" placeholder="Type Of Info" />
                                     </Col>
                                 </Form.Group>
-                                <Form.Group as={Row} className="mb-3" controlId="formPlaintextFile">
+                                <Form.Group as={Row} className="mb-3" controlId="formPlaintextTypeInfo">
                                     <Form.Label column sm="2 " >
-                                        Input File Picture or More Info 
+                                      Description or Input or More Info 
                                     </Form.Label>
-                                    <Col sm="10 ">
-                                    <Form.Control type="file" size="sm" />
+                                    <Col sm="10 " >
+                                    <Form.Control type="text" placeholder="Description About Information" />
                                     </Col>
                                 </Form.Group>
                                 <Center><Button href="/Thanks" variant="warning" size="lg">Submit</Button></Center>   
