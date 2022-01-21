@@ -1,8 +1,19 @@
 import React, {useState, useEffect} from 'react'
 import Slider from '../components/Slider'
-import { Row, Card } from 'react-bootstrap'
+import { Row, Card, Button } from 'react-bootstrap'
 import styled from 'styled-components'
 import Img from "../pic/Article.png"
+import Img1 from "../pic/a2.png"
+import Img2 from "../pic/a3.png"
+import Img3 from "../pic/a4.png"
+import Img4 from "../pic/a5.png"
+import Img5 from "../pic/a6.png"
+import Img6 from "../pic/a7.png"
+import Img7 from "../pic/a8.png"
+import Img8 from "../pic/a9.png"
+import Img9 from "../pic/a10.png"
+import Img10 from "../pic/a11.png"
+import Img11 from "../pic/a12.png"
 import CardComp from '../components/CardComp'
 import NavUser from '../components/NavUser'
 import axios from 'axios'
@@ -42,7 +53,9 @@ function Home() {
             <NavUser/>
         <Containers>
             <Row>
+            <div class="col-md-12">
             <Slider/>
+            </div>
             </Row>
             <Row>
                 <div class="col-md-9">
@@ -53,25 +66,32 @@ function Home() {
                             <Card>
                                 <Card.Img variant="top" src={Img} />
                                 <Card.Body>
-                                <Card.Title>Article</Card.Title>
+                                <Card.Title><b>ASEAN Director General of Immigration Holds Virtual Meeting, Here's the Discussion</b></Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                <Button href="/Detail" class="btn btn-primary">Detail</Button>
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
                         </div>
                         <div class="col-md-4 pt-4 ">
-                        <CardComp id="1" judul="Article" tanggal="15/1/2021"/>
+                        {/* <CardComp id="1" judul="Belajar React Keren" tanggal="12/12/2020"/> */}
+                        <Card>
+                                <Card.Img variant="top" src={Img9} />
+                                <Card.Body>
+                                <Card.Title><b>ASEAN Begins with the Bangkok Declaration Held in This Country</b></Card.Title>
+                                <Card.Text>
+                                <Button href="/Detail" class="btn btn-primary">Detail</Button>
+                                </Card.Text>
+                                </Card.Body>
+                            </Card>
                         </div>
                         <div class="col-md-4 pt-4 ">
                             <Card>
-                                <Card.Img variant="top" src={Img} />
+                                <Card.Img variant="top" src={Img2} />
                                 <Card.Body>
-                                <Card.Title>Article</Card.Title>
+                                <Card.Title><b>Two Southeast Asian Countries That Have Two Climates</b></Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                <Button href="/Detail" class="btn btn-primary">Detail</Button>
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -81,36 +101,33 @@ function Home() {
                     <Row>
                         <div class="col-md-4 pt-4 ">
                             <Card>
-                                <Card.Img variant="top" src={Img} />
+                                <Card.Img variant="top" src={Img3} />
                                 <Card.Body>
-                                <Card.Title>Article</Card.Title>
+                                <Card.Title><b>ASEAN Begins with the Bangkok Declaration Held in This Country</b></Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                <Button href="/Detail" class="btn btn-primary">Detail</Button>
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
                         </div>
                         <div class="col-md-4 pt-4 ">
                             <Card>
-                                <Card.Img variant="top" src={Img} />
+                                <Card.Img variant="top" src={Img4} />
                                 <Card.Body>
-                                <Card.Title>Article</Card.Title>
+                                <Card.Title><b>Threat of Civil War in Myanmar</b></Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                <Button href="/Detail" class="btn btn-primary">Detail</Button>
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
                         </div>
                         <div class="col-md-4 pt-4 ">
                             <Card>
-                                <Card.Img variant="top" src={Img} />
+                                <Card.Img variant="top" src={Img5} />
                                 <Card.Body>
-                                <Card.Title>Article</Card.Title>
+                                <Card.Title><b>Myanmar military claims to have killed 1,000 civilians since overthrowing Suu Kyi</b></Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                <Button href="/Detail" class="btn btn-primary">Detail</Button>
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -119,36 +136,33 @@ function Home() {
                     <Row>
                         <div class="col-md-4 pt-4 ">
                             <Card>
-                                <Card.Img variant="top" src={Img} />
+                                <Card.Img variant="top" src={Img6} />
                                 <Card.Body>
-                                <Card.Title>Article</Card.Title>
+                                <Card.Title><b>ASEAN Director General of Immigration Holds Virtual Meeting, Here's the Discussion</b></Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                <Button href="/Detail" class="btn btn-primary">Detail</Button>
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
                         </div>
                         <div class="col-md-4 pt-4 ">
                             <Card>
-                                <Card.Img variant="top" src={Img} />
+                                <Card.Img variant="top" src={Img7} />
                                 <Card.Body>
-                                <Card.Title>Article</Card.Title>
+                                <Card.Title><b>6 Factors Encouraging Cooperation Between ASEAN Countries and Its Obstacles</b></Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                <Button href="/Detail" class="btn btn-primary">Detail</Button>
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
                         </div>
                         <div class="col-md-4 pt-4 ">
                             <Card>
-                                <Card.Img variant="top" src={Img} />
+                                <Card.Img variant="top" src={Img8} />
                                 <Card.Body>
-                                <Card.Title>Article</Card.Title>
+                                <Card.Title><b>Two Southeast Asian Countries That Have Two Climates</b></Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                <Button href="/Detail" class="btn btn-primary">Detail</Button>
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -163,10 +177,10 @@ function Home() {
                     <h1>Trends For You</h1>
                     <p>#Trending in ASEAN</p>
                     <p>#Indonesia</p>
-                    <p>#Indonesia</p>
-                    <p>#Indonesia</p>
-                    <p>#Indonesia</p>
-                    <a href="/Detail" class="btn btn-primary">Detail</a>
+                    <p>#Malaysia</p>
+                    <p>#Thailand</p>
+                    <p>#Vietnam</p>
+                    
                     </Card>
                     
                 </div>
