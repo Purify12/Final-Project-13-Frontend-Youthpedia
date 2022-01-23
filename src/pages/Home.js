@@ -29,20 +29,14 @@ align-items:"center";
 
 
 function Home() {
-    const [loading, setLoading] = useState(true);
+
   const [data, setData] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
-      setLoading(true);
-      try {
-        const { data: response } = await axios.get(
-          "https://youtpedia-api.herokuapp.com/berita"
-        );
-        setData(response);
-      } catch (error) {
-        console.error(error.message);
-      }
-      setLoading(false);
+      const res = await axios.get("https://youtpedia-api.herokuapp.com/berita")
+      
+        console.log(res);
+
     };
 
     fetchData();

@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import styled from 'styled-components'
 import { Form, Button, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -16,6 +17,14 @@ padding-top:5em;
 `
 
 function Login() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+
+  const submitHandler = (e) => {
+    e.preventDefault();
+  };
+
     return (
       <div>
         <NavStart/>
@@ -34,9 +43,9 @@ function Login() {
                         <Form.Label>Email address</Form.Label>
                         <Form.Control
                           type="email"
-                          value="email"
+                          value={email}
                           placeholder="Enter email"
-                        //   onChange={(e) => setEmail(e.target.value)}
+                          onChange={(e) => setEmail(e.target.value)}
                         />
                       </Form.Group>
                       <p> </p>
@@ -44,9 +53,9 @@ function Login() {
                         <Form.Label>Password</Form.Label>
                         <Form.Control
                           type="password"
-                          value="password"
+                          value={password}
                           placeholder="Password"
-                        //   onChange={(e) => setPassword(e.target.value)}
+                          onChange={(e) => setPassword(e.target.value)}
                         />
                       </Form.Group>
                       <p> </p>
